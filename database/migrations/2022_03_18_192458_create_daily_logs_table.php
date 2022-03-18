@@ -14,14 +14,6 @@ class CreateDailyLogsTable extends Migration
     public function up()
     {
 
-        /**
-         * Add columns to your table:
-         * user_id : int not null
-         * log: text not null
-         * day: date not null
-         * created_at: date not null
-         * updated_at: date not null*/
-
         Schema::create('daily_logs', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id')->unsigned()->index();

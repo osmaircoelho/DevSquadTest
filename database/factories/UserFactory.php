@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\DailyLog;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
@@ -14,6 +15,11 @@ class UserFactory extends Factory
      * @var string
      */
     protected $model = User::class;
+
+    public function scopeDailyLogToday(){
+        return $this->hasMany(DailyLog::class)->whereDate('day', today());
+    }
+
 
     /**
      * Define the model's default state.

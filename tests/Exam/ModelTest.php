@@ -78,6 +78,7 @@ class ModelTest extends TestCase
     public function implement_query_scope()
     {
         $user = \App\Models\User::factory()->create();
+
         \App\Models\DailyLog::factory()->count(3)->create([
             'day'     => now()->subDay(),
             'user_id' => $user->id,
