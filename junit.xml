@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="36" assertions="20" errors="26" warnings="0" failures="10" skipped="0" time="1.082839">
+    <testsuite name="Exam" tests="36" assertions="20" errors="26" warnings="0" failures="10" skipped="0" time="1.082839">
+      <testsuite name="Tests\Exam\CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" tests="9" assertions="0" errors="9" warnings="0" failures="0" skipped="0" time="0.253192">
+        <testcase name="create_route" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="34" assertions="0" time="0.091479">
+          <error type="Symfony\Component\Routing\Exception\RouteNotFoundException">Tests\Exam\CRUDTest::create_route
+Symfony\Component\Routing\Exception\RouteNotFoundException: Route [daily-logs.store] not defined.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:726
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:39</error>
+        </testcase>
+        <testcase name="validate_the_payload" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="58" assertions="0" time="0.020235">
+          <error type="Symfony\Component\Routing\Exception\RouteNotFoundException">Tests\Exam\CRUDTest::validate_the_payload
+Symfony\Component\Routing\Exception\RouteNotFoundException: Route [daily-logs.store] not defined.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:726
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:64</error>
+        </testcase>
+        <testcase name="implement_route_model_binding" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="83" assertions="0" time="0.020997">
+          <error type="Error">Tests\Exam\CRUDTest::implement_route_model_binding
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:86</error>
+        </testcase>
+        <testcase name="use_policy_to_authorize_deletion" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="106" assertions="0" time="0.020906">
+          <error type="Error">Tests\Exam\CRUDTest::use_policy_to_authorize_deletion
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:111</error>
+        </testcase>
+        <testcase name="apply_soft_delete" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="127" assertions="0" time="0.019649">
+          <error type="Error">Tests\Exam\CRUDTest::apply_soft_delete
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:131</error>
+        </testcase>
+        <testcase name="custom_rule" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="147" assertions="0" time="0.019644">
+          <error type="Symfony\Component\Routing\Exception\RouteNotFoundException">Tests\Exam\CRUDTest::custom_rule
+Symfony\Component\Routing\Exception\RouteNotFoundException: Route [daily-logs.store] not defined.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:726
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:152</error>
+        </testcase>
+        <testcase name="use_middleware_to_block_access" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="169" assertions="0" time="0.019753">
+          <error type="Symfony\Component\Routing\Exception\RouteNotFoundException">Tests\Exam\CRUDTest::use_middleware_to_block_access
+Symfony\Component\Routing\Exception\RouteNotFoundException: Route [daily-logs.store] not defined.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:726
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:176</error>
+        </testcase>
+        <testcase name="dispatch_an_event" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="187" assertions="0" time="0.020019">
+          <error type="Symfony\Component\Routing\Exception\RouteNotFoundException">Tests\Exam\CRUDTest::dispatch_an_event
+Symfony\Component\Routing\Exception\RouteNotFoundException: Route [daily-logs.store] not defined.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:726
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:194</error>
+        </testcase>
+        <testcase name="create_a_listener_that_will_send_an_email_with_a_copy_of_daily_log" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php" line="209" assertions="0" time="0.020509">
+          <error type="Symfony\Component\Routing\Exception\RouteNotFoundException">Tests\Exam\CRUDTest::create_a_listener_that_will_send_an_email_with_a_copy_of_daily_log
+Symfony\Component\Routing\Exception\RouteNotFoundException: Route [daily-logs.store] not defined.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:726
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/CRUDTest.php:216</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Exam\HTTPTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/HTTPTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="2" skipped="0" time="0.019306">
+        <testcase name="consume_an_api" class="Tests\Exam\HTTPTest" classname="Tests.Exam.HTTPTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/HTTPTest.php" line="42" assertions="1" time="0.010058">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\HTTPTest::consume_an_api
+null does not match expected type "array".
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/HTTPTest.php:48</failure>
+        </testcase>
+        <testcase name="use_config_to_organize_your_service" class="Tests\Exam\HTTPTest" classname="Tests.Exam.HTTPTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/HTTPTest.php" line="62" assertions="1" time="0.009248">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\HTTPTest::use_config_to_organize_your_service
+Failed asserting that an array has the key 'exam'.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/HTTPTest.php:64</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Exam\JobTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php" tests="3" assertions="1" errors="3" warnings="0" failures="0" skipped="0" time="0.063422">
+        <testcase name="create_job" class="Tests\Exam\JobTest" classname="Tests.Exam.JobTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php" line="34" assertions="0" time="0.019841">
+          <error type="Error">Tests\Exam\JobTest::create_job
+Error: Class "App\Jobs\SaveRandomQuote" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php:42</error>
+        </testcase>
+        <testcase name="make_sure_that_the_job_worked" class="Tests\Exam\JobTest" classname="Tests.Exam.JobTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php" line="52" assertions="0" time="0.020850">
+          <error type="Error">Tests\Exam\JobTest::make_sure_that_the_job_worked
+Error: Class "App\Jobs\SaveRandomQuote" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php:70</error>
+        </testcase>
+        <testcase name="add_logs_to_the_job_so_we_can_debug_later" class="Tests\Exam\JobTest" classname="Tests.Exam.JobTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php" line="84" assertions="1" time="0.022731">
+          <error type="Error">Tests\Exam\JobTest::add_logs_to_the_job_so_we_can_debug_later
+Error: Class "App\Jobs\SaveRandomQuote" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/JobTest.php:105</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Exam\LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" tests="9" assertions="9" errors="9" warnings="0" failures="0" skipped="0" time="0.218342">
+        <testcase name="it_should_show_today_date_by_default_along_with_3_previous_and_after_days" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="25" assertions="1" time="0.028697">
+          <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::it_should_show_today_date_by_default_along_with_3_previous_and_after_days
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:29</error>
+        </testcase>
+        <testcase name="it_should_be_able_to_set_a_current_date_and_the_days_will_change_accordingly" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="43" assertions="1" time="0.023554">
+          <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::it_should_be_able_to_set_a_current_date_and_the_days_will_change_accordingly
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:47</error>
+        </testcase>
+        <testcase name="it_should_be_able_to_go_to_the_next_day" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="72" assertions="1" time="0.024015">
+          <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::it_should_be_able_to_go_to_the_next_day
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:76</error>
+        </testcase>
+        <testcase name="it_should_be_able_to_go_to_the_previous_day" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="101" assertions="1" time="0.023613">
+          <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::it_should_be_able_to_go_to_the_previous_day
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:105</error>
+        </testcase>
+        <testcase name="it_should_dispatch_an_event_after_change_date" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="130" assertions="1" time="0.023521">
+          <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::it_should_dispatch_an_event_after_change_date
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:134</error>
+        </testcase>
+        <testsuite name="Tests\Exam\LivewireTest::day_should_be_a_valid_date" tests="4" assertions="4" errors="4" warnings="0" failures="0" skipped="0" time="0.094942">
+          <testcase name="day_should_be_a_valid_date with data set #0" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="152" assertions="1" time="0.023846">
+            <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::day_should_be_a_valid_date with data set #0 ('2020-20-20')
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:154</error>
+          </testcase>
+          <testcase name="day_should_be_a_valid_date with data set #1" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="152" assertions="1" time="0.023617">
+            <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::day_should_be_a_valid_date with data set #1 ('not-valid-date')
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:154</error>
+          </testcase>
+          <testcase name="day_should_be_a_valid_date with data set #2" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="152" assertions="1" time="0.023658">
+            <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::day_should_be_a_valid_date with data set #2 ('20-20-2020')
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:154</error>
+          </testcase>
+          <testcase name="day_should_be_a_valid_date with data set #3" class="Tests\Exam\LivewireTest" classname="Tests.Exam.LivewireTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php" line="152" assertions="1" time="0.023820">
+            <error type="Facade\Ignition\Exceptions\ViewException">Tests\Exam\LivewireTest::day_should_be_a_valid_date with data set #3 ('10-18-2020')
+Facade\Ignition\Exceptions\ViewException: The "/Users/r2luna/code/devsquad/new-exam copy/app/Http/Livewire/" directory does not exist. (View: /Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/views/mount-component.blade.php)
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/symfony/finder/Finder.php:590
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:548
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:65
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:44
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:36
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireComponentsFinder.php:26
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:63
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:81
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LifecycleManager.php:41
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:101
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/../views/mount-component.blade.php:3
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:107
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+/Users/r2luna/code/devsquad/new-exam copy/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:139
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:122
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/View/View.php:91
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:794
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:763
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:695
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:697
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:672
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:636
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Routing/Router.php:625
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:166
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:141
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:510
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:147
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/MakesHttpRequestsWrapper.php:29
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:148
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/Testing/TestableLivewire.php:84
+/Users/r2luna/code/devsquad/new-exam copy/vendor/livewire/livewire/src/LivewireManager.php:116
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/LivewireTest.php:154</error>
+          </testcase>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Tests\Exam\MigrationTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="3" skipped="0" time="0.061857">
+        <testcase name="create_daily_logs_table" class="Tests\Exam\MigrationTest" classname="Tests.Exam.MigrationTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php" line="29" assertions="1" time="0.018721">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\MigrationTest::create_daily_logs_table
+Failed asserting that false is true.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php:32</failure>
+        </testcase>
+        <testcase name="create_columns" class="Tests\Exam\MigrationTest" classname="Tests.Exam.MigrationTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php" line="46" assertions="1" time="0.020265">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\MigrationTest::create_columns
+Failed asserting that false is true.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php:50</failure>
+        </testcase>
+        <testcase name="create_foreign_key_and_index" class="Tests\Exam\MigrationTest" classname="Tests.Exam.MigrationTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php" line="66" assertions="1" time="0.022871">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\MigrationTest::create_foreign_key_and_index
+Failed asserting that null is not null.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/MigrationTest.php:72</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Exam\ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" tests="8" assertions="4" errors="4" warnings="0" failures="4" skipped="0" time="0.177550">
+        <testcase name="create_a_model" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="37" assertions="1" time="0.019001">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\ModelTest::create_a_model
+Failed asserting that false is true.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:39</failure>
+        </testcase>
+        <testcase name="relationship_with_the_user" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="47" assertions="0" time="0.020727">
+          <error type="Error">Tests\Exam\ModelTest::relationship_with_the_user
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:49</error>
+        </testcase>
+        <testcase name="create_factories" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="65" assertions="0" time="0.019638">
+          <error type="Error">Tests\Exam\ModelTest::create_factories
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:68</error>
+        </testcase>
+        <testcase name="implement_query_scope" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="78" assertions="0" time="0.019640">
+          <error type="Error">Tests\Exam\ModelTest::implement_query_scope
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:81</error>
+        </testcase>
+        <testcase name="use_get_mutator" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="101" assertions="1" time="0.037378">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\ModelTest::use_get_mutator
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Joe Doe'
++'joe doe'
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:107</failure>
+        </testcase>
+        <testcase name="use_set_mutator" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="116" assertions="1" time="0.019957">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\ModelTest::use_set_mutator
+Failed asserting that false is true.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:122</failure>
+        </testcase>
+        <testcase name="date_should_be_a_carbon_instance" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="131" assertions="0" time="0.019311">
+          <error type="Error">Tests\Exam\ModelTest::date_should_be_a_carbon_instance
+Error: Class "App\Models\DailyLog" not found
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:133</error>
+        </testcase>
+        <testcase name="the_user_should_be_notified_after_a_password_change" class="Tests\Exam\ModelTest" classname="Tests.Exam.ModelTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php" line="146" assertions="1" time="0.021898">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\ModelTest::the_user_should_be_notified_after_a_password_change
+The expected [App\Notifications\PasswordChanged] notification was not sent.
+Failed asserting that false is true.
+
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php:68
+/Users/r2luna/code/devsquad/new-exam copy/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/ModelTest.php:155</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Exam\PackageInstallTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/PackageInstallTest.php" tests="2" assertions="1" errors="1" warnings="0" failures="1" skipped="0" time="0.289170">
+        <testcase name="install_a_package" class="Tests\Exam\PackageInstallTest" classname="Tests.Exam.PackageInstallTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/PackageInstallTest.php" line="28" assertions="1" time="0.267136">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\PackageInstallTest::install_a_package
+Failed asserting that actual size 0 matches expected size 1.
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/PackageInstallTest.php:35</failure>
+        </testcase>
+        <testcase name="setup_package" class="Tests\Exam\PackageInstallTest" classname="Tests.Exam.PackageInstallTest" file="/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/PackageInstallTest.php" line="46" assertions="0" time="0.022034">
+          <error type="PHPUnit\Framework\InvalidArgumentException">Tests\Exam\PackageInstallTest::setup_package
+PHPUnit\Framework\InvalidArgumentException: Argument #2 of PHPUnit\Framework\Assert::assertCount() must be a countable or iterable
+
+/Users/r2luna/code/devsquad/new-exam copy/tests/Exam/PackageInstallTest.php:52</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
