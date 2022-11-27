@@ -11,17 +11,21 @@ class DailyLog extends Model
 {
     use HasFactory;
 
-    /*protected $fillable = [
+    protected $fillable = [
         'user_id',
         'log',
         'day'
-    ];*/
+    ];
 
-    //protected $day = Carbon::now()->format('Y-m-d');
+    protected $dates = [
+        'day'
+    ];
 
-    /*protected $casts = [
-        'day' => Carbon::class,
-    ];*/
+   public function setDayAttribute($value)
+    {
+        $this->attributes['day'] = date('Y-m-d', strtotime($value));
+        $this->attributes['day'] = Carbon::parse($value)->format('Y-m-d');
+    }
 
     public function user()
     {

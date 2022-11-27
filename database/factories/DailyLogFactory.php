@@ -24,7 +24,8 @@ class DailyLogFactory extends Factory
         return [
             'user_id' => $this->faker->numberBetween(1, 10),
             'log' => $this->faker->dateTimeBetween('-1 year', 'now'),
-            'day' => $this->faker->randomElement(['work', 'rest', 'holiday'])
+            'day' => $this->faker->dateTimeBetween('-1 year', 'now')->format('Y-m-d'),
+
         ];
     }
 }
