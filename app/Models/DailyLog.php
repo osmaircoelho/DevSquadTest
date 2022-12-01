@@ -21,11 +21,13 @@ class DailyLog extends Model
         'day'
     ];
 
-   public function setDayAttribute($value)
+ /*  public function setDayAttribute($value)
     {
-        $this->attributes['day'] = date('Y-m-d', strtotime($value));
-        $this->attributes['day'] = Carbon::parse($value)->format('Y-m-d');
-    }
+        //dd(strtotime($value));
+        //dd(date('Y-m-d', strtotime($value)));
+       // $this->attributes['day'] = date('Y-m-d', $value);
+        //$this->attributes['day'] = Carbon::parse($value)->format('Y-m-d');
+    }*/
 
     public function user()
     {
