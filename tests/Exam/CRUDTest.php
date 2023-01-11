@@ -209,7 +209,6 @@ class CRUDTest extends TestCase
     public function create_a_listener_that_will_send_an_email_with_a_copy_of_daily_log()
     {
         Mail::fake();
-
         $user = \App\Models\User::factory()->create();
 
         $this->actingAs($user)

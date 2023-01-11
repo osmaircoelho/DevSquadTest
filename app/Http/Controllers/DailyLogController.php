@@ -2,15 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\DailyLogCreated;
+use App\Mail\DailyLogCopy;
 use App\Models\DailyLog;
-use Carbon\Carbon;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use App\Rules\BlockWords;
 
 class DailyLogController extends Controller
 {
+
     public function destroy(DailyLog $dailylog)
     {
+        DailyLog::first()->delete();
+
         $this->authorize('delete', $dailylog);
     }
 
@@ -23,15 +28,18 @@ class DailyLogController extends Controller
 
     public function store(Request $request)
     {
+
         $validated = $request->validate([
-            'log' => 'required',
+            'log' => ['required', 'string', new BlockWords],
             'day' => 'required|date',
         ]);
 
-        return DailyLog::create([
+        $dailylog =  DailyLog::create([
             'user_id' => $request->user()->id,
             'log' => $validated['log'],
             'day' => $validated['day']
         ]);
+
+        DailyLogCreated::dispatch($dailylog);
     }
 }

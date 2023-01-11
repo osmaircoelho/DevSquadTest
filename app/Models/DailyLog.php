@@ -2,14 +2,15 @@
 
 namespace App\Models;
 
+use App\Events\DailyLogCreated;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 use Illuminate\Support\Facades\App;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class DailyLog extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'user_id',
@@ -19,6 +20,10 @@ class DailyLog extends Model
 
     protected $dates = [
         'day'
+    ];
+
+    protected $events = [
+        'created' => DailyLogCreated::class
     ];
 
  /*  public function setDayAttribute($value)

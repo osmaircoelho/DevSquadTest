@@ -19,6 +19,7 @@ class CreateDailyLogsTable extends Migration
             $table->integer('user_id')->unsigned()->index();
             $table->text('log');
             $table->dateTime('day');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
